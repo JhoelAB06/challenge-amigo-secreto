@@ -37,3 +37,22 @@ function actualizarListaAmigos() {
     };
     return;
 };
+
+function sortearAmigo() {
+    if(listaAmigos.length == 0) {
+        alert('No has agregado amigos aún, agrégalos ahora.');
+        return;
+    };
+    //Generación de un índice aleatorio.
+    const indice = Math.floor(Math.random() * listaAmigos.length);
+
+    //Obtención del nombre sorteado y mostrar el resultado
+    const amigoSorteado = listaAmigos[indice];
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = `Felicidades, tu amigo secreto es ${amigoSorteado}`; 
+
+    console.log(`INDICE: ${indice}`);
+    console.log(`amigoSorteado: ${amigoSorteado}`);
+
+    return;   
+};
