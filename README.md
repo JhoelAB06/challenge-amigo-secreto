@@ -23,3 +23,4 @@ La finalidad es el poner en práctica todos los conocimientos adquiridos en las 
 
 \## 📁 Acceso al proyecto en línea
 Sólo necesitas hacer click en este link:  
+https://jhoelab06.github.io/challenge-amigo-secreto/
